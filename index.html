@@ -9,3 +9,7 @@ git fetch 把服务端所有分支拉下来
 git merge 分支    把该分支代码合并到当前分支
 git stash 将修改的暂存
 git stash pop 将修改释放
+版本回退    git reset --hard HEAD^    HEAD代表当前版本  或者 git reset --hard 1094a....
+git reflog   记录你的每一次命令
+git reset HEAD login.html   可以把暂存区的修改撤销掉（unstage），重新放回工作区
+git checkout -- login.html  丢弃工作区的修改
